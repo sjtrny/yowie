@@ -6,9 +6,9 @@ Planned features of the YowieFC:
 
 * 36mm form factor
 * STM32F4 MCU
-* On board OSD
+* On board OSD via MAX7456
 * On board flash for blackbox
-* MPU-6000 (for that sweet, sweet SPI)
+* MPU-6000
 * 4 ESC/PWM out
 * On board S.BUS inverter
 * Voltage Sensing
