@@ -55,4 +55,196 @@ F 3 "" H 5850 1750 60  0000 C CNN
 	1    5850 1750
 	1    0    0    -1  
 $EndComp
+$Comp
+L USB_MICROB J?
+U 1 1 56526A85
+P 9900 2450
+F 0 "J?" H 9900 2450 60  0000 C CNN
+F 1 "USB_MICROB" H 9900 1750 60  0000 C CNN
+F 2 "" H 9900 2450 60  0000 C CNN
+F 3 "" H 9900 2450 60  0000 C CNN
+	1    9900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D?
+U 1 1 56526B1B
+P 9200 4000
+F 0 "D?" H 9250 3900 50  0000 C CNN
+F 1 "D_Schottky_x2_KCom_AAK" H 9200 4100 50  0000 C CNN
+F 2 "" H 9200 4000 60  0000 C CNN
+F 3 "" H 9200 4000 60  0000 C CNN
+	1    9200 4000
+	-1   0    0    1   
+$EndComp
+Text Label 9250 2850 0    60   ~ 0
+VBUS
+Text Label 9700 4000 0    60   ~ 0
+VBUS
+Text Label 9000 3450 0    60   ~ 0
+TO_REGS
+$Comp
+L RT9193-33GB U?
+U 1 1 56526EB8
+P 9150 4700
+F 0 "U?" H 9150 4700 60  0000 C CNN
+F 1 "RT9193-33GB" H 9250 4100 60  0000 C CNN
+F 2 "" H 9150 4700 60  0000 C CNN
+F 3 "" H 9150 4700 60  0000 C CNN
+	1    9150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 56526FDF
+P 8250 5100
+F 0 "C?" H 8260 5170 50  0000 L CNN
+F 1 "10uF" H 8260 5020 50  0000 L CNN
+F 2 "" H 8250 5100 60  0000 C CNN
+F 3 "" H 8250 5100 60  0000 C CNN
+	1    8250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5652721E
+P 10050 5100
+F 0 "C?" H 10060 5170 50  0000 L CNN
+F 1 "10uF" H 10060 5020 50  0000 L CNN
+F 2 "" H 10050 5100 60  0000 C CNN
+F 3 "" H 10050 5100 60  0000 C CNN
+	1    10050 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5652725B
+P 10500 5100
+F 0 "C?" H 10510 5170 50  0000 L CNN
+F 1 "0.1uF" H 10510 5020 50  0000 L CNN
+F 2 "" H 10500 5100 60  0000 C CNN
+F 3 "" H 10500 5100 60  0000 C CNN
+	1    10500 5100
+	1    0    0    -1  
+$EndComp
+Text Label 8100 4550 0    60   ~ 0
+TO_REGS
+Text Label 10400 4550 0    60   ~ 0
+VCC
+Text Label 9250 2950 0    60   ~ 0
+GND
+Text Label 7300 1900 0    60   ~ 0
+VCC
+Text Label 7300 2000 0    60   ~ 0
+GND
+Text Label 4700 2300 0    60   ~ 0
+OSC_IN
+Text Label 4700 2400 0    60   ~ 0
+OSC_OUT
+$Comp
+L R R?
+U 1 1 56527C00
+P 10000 2000
+F 0 "R?" V 10080 2000 50  0000 C CNN
+F 1 "R" V 10000 2000 50  0000 C CNN
+F 2 "" V 9930 2000 30  0000 C CNN
+F 3 "" H 10000 2000 30  0000 C CNN
+	1    10000 2000
+	0    1    1    0   
+$EndComp
+Text Label 10600 950  0    60   ~ 0
+OSC_IN
+Text Label 10550 2000 0    60   ~ 0
+OSC_OUT
+Wire Wire Line
+	9200 3800 9200 3500
+Wire Wire Line
+	9500 4000 9900 4000
+Wire Wire Line
+	9550 2850 9250 2850
+Wire Wire Line
+	8250 4900 8750 4900
+Wire Wire Line
+	8250 4600 8250 5000
+Wire Wire Line
+	8750 5000 8500 5000
+Wire Wire Line
+	8500 5000 8500 4900
+Connection ~ 8500 4900
+Wire Wire Line
+	8750 5100 8500 5100
+Wire Wire Line
+	8500 5100 8500 5500
+Connection ~ 8250 4900
+Wire Wire Line
+	8250 5500 10500 5500
+Wire Wire Line
+	10500 5500 10500 5200
+Wire Wire Line
+	8250 5200 8250 5500
+Connection ~ 8500 5500
+Wire Wire Line
+	10050 5200 10050 5500
+Connection ~ 10050 5500
+Wire Wire Line
+	9750 4900 10500 4900
+Wire Wire Line
+	10500 4650 10500 5000
+Connection ~ 10500 4900
+Wire Wire Line
+	10050 5000 10050 4900
+Connection ~ 10050 4900
+Wire Wire Line
+	9550 2950 9250 2950
+Wire Wire Line
+	7000 1900 7450 1900
+Wire Wire Line
+	7000 2000 7450 2000
+Wire Wire Line
+	5200 2300 4700 2300
+Wire Wire Line
+	5200 2400 4700 2400
+Wire Wire Line
+	10150 2000 10900 2000
+Connection ~ 9650 950 
+Connection ~ 9650 2000
+$Comp
+L CRYSTAL_SMD X?
+U 1 1 5653E728
+P 9650 1450
+F 0 "X?" H 9650 1540 50  0000 C CNN
+F 1 "CRYSTAL_SMD" H 9680 1340 50  0000 L CNN
+F 2 "" H 9650 1450 60  0000 C CNN
+F 3 "" H 9650 1450 60  0000 C CNN
+	1    9650 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9650 950  9650 1250
+Wire Wire Line
+	9650 1650 9650 2000
+Wire Wire Line
+	9650 950  10600 950 
+Wire Wire Line
+	9650 2000 9850 2000
+Wire Wire Line
+	9550 1450 9100 1450
+Text Label 9100 1450 0    60   ~ 0
+GND
+Wire Wire Line
+	7000 3900 7450 3900
+Wire Wire Line
+	7000 3800 7450 3800
+Text Label 7150 3900 0    60   ~ 0
+USB_DM
+Text Label 7150 3800 0    60   ~ 0
+USB_DP
+Wire Wire Line
+	9550 2750 9250 2750
+Wire Wire Line
+	9550 2650 9250 2650
+Text Label 9200 2750 0    60   ~ 0
+USB_DM
+Text Label 9200 2650 0    60   ~ 0
+USB_DP
 $EndSCHEMATC
