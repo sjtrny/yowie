@@ -472,20 +472,4 @@ Text Label 7500 2550 0    60   ~ 0
 GND
 Text Label 7500 2650 0    60   ~ 0
 GND
-Wire Wire Line
-	1350 2650 850  2650
-Wire Wire Line
-	1350 2750 850  2750
-Wire Wire Line
-	1350 2850 850  2850
-Wire Wire Line
-	1350 2950 850  2950
-Text Label 850  2650 0    60   ~ 0
-SPI_CS
-Text Label 850  2750 0    60   ~ 0
-SPI_SCLK
-Text Label 850  2850 0    60   ~ 0
-SPI_MISO
-Text Label 850  2950 0    60   ~ 0
-SPI_MOSI
 $EndSCHEMATC
