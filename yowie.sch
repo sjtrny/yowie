@@ -215,8 +215,8 @@ Text Label 10150 2150 0    60   ~ 0
 PPM
 Text Label 850  3550 0    60   ~ 0
 PPM
-Text Label 3400 2850 0    60   ~ 0
-SBUS
+Text Label 3200 2850 0    60   ~ 0
+SBUS_INV
 $Comp
 L CONN_02X04 P?
 U 1 1 565D4175
@@ -488,4 +488,31 @@ Text Label 850  2850 0    60   ~ 0
 SPI_MISO
 Text Label 850  2950 0    60   ~ 0
 SPI_MOSI
+$Comp
+L SN74LVC1G04 U?
+U 1 1 565D825E
+P 9000 1800
+F 0 "U?" H 9000 1800 60  0000 C CNN
+F 1 "SN74LVC1G04" H 9000 1250 60  0000 C CNN
+F 2 "" H 9000 1800 60  0000 C CNN
+F 3 "" H 9000 1800 60  0000 C CNN
+	1    9000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 1950 9850 1950
+Wire Wire Line
+	9450 2150 9850 2150
+Wire Wire Line
+	8550 2150 8150 2150
+Wire Wire Line
+	8550 2050 8150 2050
+Text Label 9550 1950 0    60   ~ 0
+VCC_IN
+Text Label 9450 2150 0    60   ~ 0
+SBUS_INV
+Text Label 8150 2150 0    60   ~ 0
+GND
+Text Label 8150 2050 0    60   ~ 0
+SBUS
 $EndSCHEMATC
