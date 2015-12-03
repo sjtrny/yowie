@@ -127,9 +127,7 @@ F 3 "" H 10950 6050 60  0000 C CNN
 	1    10950 6050
 	1    0    0    -1  
 $EndComp
-Text Label 5850 7550 0    60   ~ 0
-TO_REGS
-Text Label 10850 5500 0    60   ~ 0
+Text Label 10850 5550 0    60   ~ 0
 VCC
 Text Label 10100 4000 0    60   ~ 0
 GND
@@ -493,6 +491,207 @@ F 3 "" H 7850 3000 60  0000 C CNN
 	1    7850 3000
 	0    1    1    0   
 $EndComp
+$Comp
+L CP1_Small C?
+U 1 1 565E77B8
+P 7300 3400
+F 0 "C?" H 7310 3470 50  0000 L CNN
+F 1 "47uF" H 7310 3320 50  0000 L CNN
+F 2 "" H 7300 3400 60  0000 C CNN
+F 3 "" H 7300 3400 60  0000 C CNN
+	1    7300 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 565E7837
+P 7400 3000
+F 0 "C?" H 7410 3070 50  0000 L CNN
+F 1 "47uF" H 7410 2920 50  0000 L CNN
+F 2 "" H 7400 3000 60  0000 C CNN
+F 3 "" H 7400 3000 60  0000 C CNN
+	1    7400 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Led_Small D?
+U 1 1 566016E7
+P 850 6800
+F 0 "D?" H 800 6925 50  0000 L CNN
+F 1 "Led_Small" H 675 6700 50  0000 L CNN
+F 2 "" V 850 6800 60  0000 C CNN
+F 3 "" V 850 6800 60  0000 C CNN
+	1    850  6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Led_Small D?
+U 1 1 56601779
+P 1150 6800
+F 0 "D?" H 1100 6925 50  0000 L CNN
+F 1 "Led_Small" H 975 6700 50  0000 L CNN
+F 2 "" V 1150 6800 60  0000 C CNN
+F 3 "" V 1150 6800 60  0000 C CNN
+	1    1150 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Led_Small D?
+U 1 1 56601830
+P 1450 6800
+F 0 "D?" H 1400 6925 50  0000 L CNN
+F 1 "Led_Small" H 1275 6700 50  0000 L CNN
+F 2 "" V 1450 6800 60  0000 C CNN
+F 3 "" V 1450 6800 60  0000 C CNN
+	1    1450 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5660189B
+P 850 7200
+F 0 "R?" H 880 7220 50  0000 L CNN
+F 1 "100" H 880 7160 50  0000 L CNN
+F 2 "" H 850 7200 60  0000 C CNN
+F 3 "" H 850 7200 60  0000 C CNN
+	1    850  7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5660190D
+P 1150 7200
+F 0 "R?" H 1180 7220 50  0000 L CNN
+F 1 "100" H 1180 7160 50  0000 L CNN
+F 2 "" H 1150 7200 60  0000 C CNN
+F 3 "" H 1150 7200 60  0000 C CNN
+	1    1150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 56601971
+P 1450 7200
+F 0 "R?" H 1480 7220 50  0000 L CNN
+F 1 "100" H 1480 7160 50  0000 L CNN
+F 2 "" H 1450 7200 60  0000 C CNN
+F 3 "" H 1450 7200 60  0000 C CNN
+	1    1450 7200
+	1    0    0    -1  
+$EndComp
+Text Label 1350 6450 0    60   ~ 0
+VCC
+Text Label 1050 6450 0    60   ~ 0
+VCC
+Text Label 750  6450 0    60   ~ 0
+VCC
+Text Label 750  7600 0    60   ~ 0
+GND
+Text Label 1050 7600 0    60   ~ 0
+LED1
+Text Label 1350 7600 0    60   ~ 0
+LED2
+Text Label 3400 1650 0    60   ~ 0
+LED1
+Text Label 3400 1550 0    60   ~ 0
+LED2
+$Comp
+L CONN_01X02 P?
+U 1 1 56602FB5
+P 2000 6700
+F 0 "P?" H 2000 6850 50  0000 C CNN
+F 1 "CONN_01X02" V 2100 6700 50  0000 C CNN
+F 2 "" H 2000 6700 60  0000 C CNN
+F 3 "" H 2000 6700 60  0000 C CNN
+	1    2000 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Q_PNP_BEC Q?
+U 1 1 566037B6
+P 2800 6850
+F 0 "Q?" H 3100 6900 50  0000 R CNN
+F 1 "Q_PNP_BEC" H 3400 6800 50  0000 R CNN
+F 2 "" H 3000 6950 29  0000 C CNN
+F 3 "" H 2800 6850 60  0000 C CNN
+	1    2800 6850
+	0    1    -1   0   
+$EndComp
+Text Label 2300 6650 0    60   ~ 0
+VCC_IN
+Text Label 3300 6750 0    60   ~ 0
+GND
+$Comp
+L R_Small R?
+U 1 1 56603F26
+P 2800 7200
+F 0 "R?" H 2830 7220 50  0000 L CNN
+F 1 "R_Small" H 2830 7160 50  0000 L CNN
+F 2 "" H 2800 7200 60  0000 C CNN
+F 3 "" H 2800 7200 60  0000 C CNN
+	1    2800 7200
+	1    0    0    -1  
+$EndComp
+Text Label 2700 7600 0    60   ~ 0
+BUZZ
+Text Label 850  1450 0    60   ~ 0
+VBAT
+Text Label 850  1550 0    60   ~ 0
+BUZZ
+Text Label 850  1650 0    60   ~ 0
+RSSI
+$Comp
+L CONN_01X02 P?
+U 1 1 56604F96
+P 3900 6700
+F 0 "P?" H 3900 6850 50  0000 C CNN
+F 1 "CONN_01X02" V 4000 6700 50  0000 C CNN
+F 2 "" H 3900 6700 60  0000 C CNN
+F 3 "" H 3900 6700 60  0000 C CNN
+	1    3900 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5660521D
+P 4400 6750
+F 0 "R?" H 4430 6770 50  0000 L CNN
+F 1 "R_Small" H 4430 6710 50  0000 L CNN
+F 2 "" H 4400 6750 60  0000 C CNN
+F 3 "" H 4400 6750 60  0000 C CNN
+	1    4400 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 566052CC
+P 4850 6750
+F 0 "R?" H 4880 6770 50  0000 L CNN
+F 1 "R_Small" H 4880 6710 50  0000 L CNN
+F 2 "" H 4850 6750 60  0000 C CNN
+F 3 "" H 4850 6750 60  0000 C CNN
+	1    4850 6750
+	0    1    1    0   
+$EndComp
+Text Label 4250 6650 0    60   ~ 0
+GND
+Text Label 5150 6750 0    60   ~ 0
+GND
+Text Label 4550 7250 0    60   ~ 0
+VBAT
+Text Label 8550 5500 0    60   ~ 0
+TO_REGS
+$Comp
+L CONN_01X02 P?
+U 1 1 56606140
+P 5750 6800
+F 0 "P?" H 5750 6950 50  0000 C CNN
+F 1 "CONN_01X02" V 5850 6800 50  0000 C CNN
+F 2 "" H 5750 6800 60  0000 C CNN
+F 3 "" H 5750 6800 60  0000 C CNN
+	1    5750 6800
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
 	5600 2100 5600 1250
 Connection ~ 5600 1350
@@ -778,28 +977,6 @@ Wire Wire Line
 	8150 2800 7700 2800
 Wire Wire Line
 	8150 3000 7950 3000
-$Comp
-L CP1_Small C?
-U 1 1 565E77B8
-P 7300 3400
-F 0 "C?" H 7310 3470 50  0000 L CNN
-F 1 "47uF" H 7310 3320 50  0000 L CNN
-F 2 "" H 7300 3400 60  0000 C CNN
-F 3 "" H 7300 3400 60  0000 C CNN
-	1    7300 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CP1_Small C?
-U 1 1 565E7837
-P 7400 3000
-F 0 "C?" H 7410 3070 50  0000 L CNN
-F 1 "47uF" H 7410 2920 50  0000 L CNN
-F 2 "" H 7400 3000 60  0000 C CNN
-F 3 "" H 7400 3000 60  0000 C CNN
-	1    7400 3000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7750 3000 7500 3000
 Wire Wire Line
@@ -815,4 +992,61 @@ Wire Wire Line
 Wire Wire Line
 	7600 3400 7600 3000
 Connection ~ 7600 3000
+Wire Wire Line
+	850  6900 850  7100
+Wire Wire Line
+	1150 6900 1150 7100
+Wire Wire Line
+	1450 6900 1450 7100
+Wire Wire Line
+	850  6700 850  6450
+Wire Wire Line
+	1150 6700 1150 6450
+Wire Wire Line
+	1450 6700 1450 6450
+Wire Wire Line
+	850  7300 850  7500
+Wire Wire Line
+	1150 7300 1150 7500
+Wire Wire Line
+	1450 7300 1450 7500
+Wire Wire Line
+	3150 1650 3600 1650
+Wire Wire Line
+	3150 1550 3600 1550
+Wire Wire Line
+	2200 6750 2600 6750
+Wire Wire Line
+	2200 6650 2600 6650
+Wire Wire Line
+	3000 6750 3450 6750
+Wire Wire Line
+	2800 7050 2800 7100
+Wire Wire Line
+	2800 7300 2800 7500
+Wire Wire Line
+	1350 1450 850  1450
+Wire Wire Line
+	1350 1550 850  1550
+Wire Wire Line
+	1350 1650 850  1650
+Wire Wire Line
+	4100 6650 4400 6650
+Wire Wire Line
+	4100 6750 4300 6750
+Wire Wire Line
+	4500 6750 4750 6750
+Wire Wire Line
+	4650 6750 4650 7150
+Connection ~ 4650 6750
+Wire Wire Line
+	4950 6750 5300 6750
+Wire Wire Line
+	5950 6750 6300 6750
+Wire Wire Line
+	5950 6850 6300 6850
+Text Label 6100 6750 0    60   ~ 0
+RSSI
+Text Label 6150 6850 0    60   ~ 0
+GND
 $EndSCHEMATC
