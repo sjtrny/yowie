@@ -145,12 +145,10 @@ $EndComp
 Text Label 15000 2650 0    60   ~ 0
 GND
 Text Label 15000 2750 0    60   ~ 0
-VCC_5V
+RC_VCC
 Text Label 15000 2850 0    60   ~ 0
 SBUS
 Text Label 15000 2950 0    60   ~ 0
-PPM_SAT
-Text Label 850  3550 0    60   ~ 0
 PPM_SAT
 Text Label 3200 2850 0    60   ~ 0
 SBUS_INV
@@ -894,6 +892,35 @@ F 3 "" H 11700 9300 60  0000 C CNN
 	1    11700 9300
 	1    0    0    -1  
 $EndComp
+Text Label 11050 8350 0    60   ~ 0
+VCC_3_3V
+Text Label 11050 8850 0    60   ~ 0
+VCC_5V
+Text Label 11050 9350 0    60   ~ 0
+VCC_12V
+$Comp
+L NLAS4157 U?
+U 1 1 5669EA4C
+P 13550 2550
+F 0 "U?" H 13550 2550 60  0000 C CNN
+F 1 "NLAS4157" H 13550 2000 60  0000 C CNN
+F 2 "" H 13550 2550 60  0000 C CNN
+F 3 "" H 13550 2550 60  0000 C CNN
+	1    13550 2550
+	1    0    0    -1  
+$EndComp
+Text Label 12650 2700 0    60   ~ 0
+VCC_5V
+Text Label 12650 2900 0    60   ~ 0
+VCC_3V
+Text Label 12650 2800 0    60   ~ 0
+GND
+Text Label 14150 2700 0    60   ~ 0
+RC_V_CTRL
+Text Label 14150 2800 0    60   ~ 0
+VCC_5V
+Text Label 14150 2900 0    60   ~ 0
+RC_VCC
 Wire Wire Line
 	5600 2100 5600 1250
 Connection ~ 5600 1350
@@ -1301,11 +1328,6 @@ Wire Wire Line
 Wire Wire Line
 	15450 2150 15100 2150
 Wire Wire Line
-	1100 3550 1100 3650
-Wire Wire Line
-	1100 3650 1350 3650
-Connection ~ 1100 3550
-Wire Wire Line
 	8950 10000 8100 10000
 Wire Wire Line
 	10250 10250 10600 10250
@@ -1363,10 +1385,22 @@ Connection ~ 10800 8250
 Wire Wire Line
 	10800 9250 11500 9250
 Connection ~ 10800 8750
-Text Label 11050 8350 0    60   ~ 0
-VCC_3_3V
-Text Label 11050 8850 0    60   ~ 0
-VCC_5V
-Text Label 11050 9350 0    60   ~ 0
-VCC_12V
+Wire Wire Line
+	13950 2900 14450 2900
+Wire Wire Line
+	13950 2800 14450 2800
+Wire Wire Line
+	13950 2700 14450 2700
+Wire Wire Line
+	13150 2700 12650 2700
+Wire Wire Line
+	13150 2800 12650 2800
+Wire Wire Line
+	13150 2900 12650 2900
+Wire Wire Line
+	1350 3650 850  3650
+Text Label 850  3650 0    60   ~ 0
+PPM_SAT
+Text Label 850  3550 0    60   ~ 0
+RC_V_CTRL
 $EndSCHEMATC
