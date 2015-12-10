@@ -9,6 +9,7 @@ Features of the YowieFC:
 * On board OSD via MAX7456
 * MPU-6000 (via SPI)
 * Power from flight battery (up to 6S)
+* 12V 1A supply for FPV camera and transmitter
 * 4 ESC/PWM out
 * On board S.BUS inverter
 * Voltage Sensing
